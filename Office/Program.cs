@@ -66,7 +66,7 @@ namespace Office
             //____________________________________________________________
 
 
-            using (гнvar db = new BloggingContext())
+            using (DbContext db = new BloggingContext())
             {
                 
                 // Create and save a new Blog 
